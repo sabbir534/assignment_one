@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile Card</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      a {
+        text-decoration: none;
+        color: #888;
+      }
+      .profile-card {
+        background-color: #fff;
+        height: 460px;
+        width: 300px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      .profile-img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto 10px;
+      }
+      .name {
+        font-size: 1.5rem;
+        margin: 5px 0;
+      }
+
+      .designation {
+        color: #888;
+        font-size: 1.2rem;
+        margin: 5px 0;
+      }
+
+      .description {
+        font-size: 0.9rem;
+        line-height: 1.5;
+      }
+      .profile-footer {
+        display: flex;
+        justify-content: center;
+      }
+      .social-icon {
+        margin: 8px 5px;
+      }
+
+      .social-icon img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+      .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+      }
+      .contact p {
+        text-decoration: none;
+        color: #888;
+      }
+      .contact-icon {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        color: #888;
+        font-size: 1.5em;
+        margin: 0 5px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card">
+      <img class="profile-img" src="img/profile-img.jpg" alt="profile image" />
+      <h2 class="name">Sabbir Ahmed</h2>
+      <p class="designation">Web Developer</p>
+      <p class="description">
+        Passionate web developer, learning back-end technologies. Skilled in
+        creating responsive, user-friendly websites with a focus on modern
+        design and functionality.
+      </p>
+      <div class="contact">
+        <img class="contact-icon" src="img/email.png" alt="Mail Icon" />
+        <a href="mailto:prince534534@gmail.com">prince534534@gmail.com</a>
+      </div>
+      <div class="contact">
+        <img class="contact-icon" src="img/phone.png" alt="Contact Icon" />
+        <p>+880 1906887938</p>
+      </div>
+      <div class="profile-footer">
+        <a href="#" class="social-icon"
+          ><img src="img/facebook.png" alt="Facebook"
+        /></a>
+        <a href="#" class="social-icon"
+          ><img src="img/twitter.png" alt="Twitter"
+        /></a>
+        <a href="#" class="social-icon"
+          ><img src="img/linkedin.png" alt="LinkedIn"
+        /></a>
+        <a href="#" class="social-icon"
+          ><img src="img/github-logo.png" alt="GitHub"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
